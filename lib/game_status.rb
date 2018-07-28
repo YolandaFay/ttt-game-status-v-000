@@ -12,7 +12,7 @@ def won?(board)
   win_index = 0 
   
     if board[index] == board[index+1] == board[index+2] 
-      return WIN_COMBINATIONS[0]
+      return WIN_COMBINATIONS[win_index]
       
   end
 end
