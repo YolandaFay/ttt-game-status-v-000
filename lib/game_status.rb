@@ -13,6 +13,8 @@ def won?(board)
   
     if board[index] == board[index+1] == board[index+2] 
       return WIN_COMBINATIONS[win_index]
-      
+    else
+      index += 3
+      win_index += 1 
   end
 end
