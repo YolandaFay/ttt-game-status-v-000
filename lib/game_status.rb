@@ -26,14 +26,11 @@ end
 
 def full?(board)
   
-  counter = 0 
-  
-  while counter <= 9 
-    if board[counter] == " "
+  board.each do |entry|
+    if entry == " "
       return false 
-    else
-      counter += 1 
     end
-    return true 
   end
+  
+  return true 
 end
