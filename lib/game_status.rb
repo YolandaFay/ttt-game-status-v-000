@@ -5,6 +5,8 @@ end
 
 # Define your WIN_COMBINATIONS constant
 
+win_combinations = Array.new([0,1,2],[2,3,4],[6,7,8],[0,4,8],[3,4,6])
+
 def won?(board)
   
   
