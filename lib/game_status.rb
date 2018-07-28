@@ -37,7 +37,7 @@ def full?(board)
     if board[counter] == " "
       return false 
     else
-      counter += 1
+      counter += 1 
     end
   end
 end
