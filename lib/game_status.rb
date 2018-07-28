@@ -8,6 +8,8 @@ def empty?(board)
     if entry != " "
       return false 
     end
+    
+    return true 
 end
 
 # Define your WIN_COMBINATIONS constant
