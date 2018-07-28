@@ -22,7 +22,7 @@ def won?(board)
   
   if board_empty?(board) == false
     return false 
-end
+  end
 
   WIN_COMBINATIONS.each do |win_combo|
     windex_1 = win_combo[0]
