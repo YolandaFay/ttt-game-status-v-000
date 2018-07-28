@@ -16,6 +16,7 @@ def won?(board)
   board.each do |entry|
     if entry != " " 
       return false 
+    end
   end 
   
   WIN_COMBINATIONS.each do |win_combo|
