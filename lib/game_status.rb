@@ -15,9 +15,8 @@ def won?(board)
   #row test 
     if board[index] == board[index+1] == board[index+2] 
       return WIN_COMBINATIONS[win_index]
-      index += 3
-      win_index += 1 
-    elsif 
+      
+    else
       
   end
   
