@@ -34,5 +34,6 @@ def full?(board)
     else
       counter += 1 
     end
+    return true 
   end
 end
