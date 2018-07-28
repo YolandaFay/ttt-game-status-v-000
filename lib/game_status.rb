@@ -31,11 +31,6 @@ end
 
 def full?(board)
   
-  board.each do |entry|
-    if entry != "X" && entry != "O"
-      return false 
-   else
-      return true 
-    end
-  end
+  
+  
 end
