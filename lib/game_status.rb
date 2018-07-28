@@ -23,9 +23,8 @@ def won?(board)
   
   if board_empty?(board) == false
     return false 
-  end
-
-  WIN_COMBINATIONS.each do |win_combo|
+  else
+    WIN_COMBINATIONS.each do |win_combo|
     windex_1 = win_combo[0]
     windex_2 = win_combo[1]
     windex_3 = win_combo[2]
@@ -40,4 +39,5 @@ def won?(board)
       false 
     end
   end
+end
 end
