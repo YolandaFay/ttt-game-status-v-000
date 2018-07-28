@@ -4,6 +4,7 @@ def position_taken?(board, index)
 end
 
 def empty?(board)
+ 
   board.each do |entry|
     if entry != " "
       return false 
