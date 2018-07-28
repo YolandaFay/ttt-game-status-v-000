@@ -17,7 +17,7 @@ def won?(board)
       return WIN_COMBINATIONS[win_index]
       index += 3
       win_index += 1 
-    elseif 
+    elsif 
       
   end
   
