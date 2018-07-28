@@ -31,6 +31,13 @@ end
 
 def full?(board)
   
+  counter = 0 
   
-  
+  while counter <= 9 
+    if board[counter] == " "
+      return false 
+    else
+      counter += 1
+    end
+  end
 end
